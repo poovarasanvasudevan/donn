@@ -351,43 +351,38 @@
                     <md-menu-content>
                         <md-menu-item>
                             <md-button ng-click="ctrl.sampleAction('bold', $event)">
-                                Bold
+                                Artefact Settings
                                 <span class="md-alt-text"> [[ 'M-B' | keyboardShortcut ]]</span>
                             </md-button>
                         </md-menu-item>
                         <md-menu-item>
                             <md-button ng-click="ctrl.sampleAction('italic', $event)">
-                                Italic
+                                Attribute Settings
                                 <span class="md-alt-text">[[ 'M-I' | keyboardShortcut ]]</span>
                             </md-button>
                         </md-menu-item>
                         <md-menu-item>
                             <md-button ng-click="ctrl.sampleAction('underline', $event)">
-                                Underline
+                                Table Settings
                                 <span class="md-alt-text">[[ 'M-U' | keyboardShortcut ]]</span>
                             </md-button>
                         </md-menu-item>
                         <md-menu-item>
                             <md-button ng-click="ctrl.sampleAction('strikethrough', $event)">
-                                Strikethrough
+                                Mail Settings
                                 <span class="md-alt-text">[[ 'A-S-5' | keyboardShortcut ]]</span>
                             </md-button>
                         </md-menu-item>
+
                         <md-menu-item>
-                            <md-button ng-click="ctrl.sampleAction('superscript', $event)">
-                                Superscript
-                                <span class="md-alt-text">[[ 'M-.' | keyboardShortcut ]]</span>
-                            </md-button>
-                        </md-menu-item>
-                        <md-menu-item>
-                            <md-button ng-click="ctrl.sampleAction('subscript', $event)">
-                                Subscript
-                                <span class="md-alt-text">[[ 'M-,' | keyboardShortcut ]]</span>
+                            <md-button ng-click="ctrl.sampleAction('strikethrough', $event)">
+                                History Management Settings
+                                <span class="md-alt-text">[[ 'A-S-5' | keyboardShortcut ]]</span>
                             </md-button>
                         </md-menu-item>
                         <md-menu-divider></md-menu-divider>
                         <md-menu-item>
-                            <md-button ng-click="ctrl.toggleSetting('clearFormatting')">Clear Formatting</md-button>
+                            <md-button ng-click="ctrl.toggleSetting('clearFormatting')">Query Console</md-button>
                         </md-menu-item>
                     </md-menu-content>
                 </md-menu>
